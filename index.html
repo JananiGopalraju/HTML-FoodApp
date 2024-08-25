@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food App</title>
+    <link rel="stylesheet" href="foodapp.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="first">
+        <img class="logo" src="logo2-removebg-preview.png" alt="">
+    </div>
+    <div class="title"><h1>Crave Courier</h1></div>
+    
+    <button class="dropdown-button" onclick="toggleSidebar()"> <i class="fa-solid fa-caret-down"></i></button>
+    
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar-content">
+            <input type="text" placeholder="Search for area, street name...">
+           <div class="location"> <a href="#">Get current location</a>
+            <p>Using GPS</p></div>
+        </div>
+
+
+    </div>
+    <nav>
+         <ul>
+            <li><a href="#">Corporate</a></li>
+            <li><a href="#"><i class="fa-brands fa-searchengin"></i> Search</a></li> 
+            <li><a href="#"><i class="fa-solid fa-percent"></i> Offers</a></li>
+            <li><a href="#"><i class="fa-solid fa-handshake-angle"></i> Help</a></li>
+            <li><a href="#"><i class="fa-solid fa-user"></i> Sign in</a></li>
+            <li><a href="#"><i class="fa-solid fa-cart-shopping"></i> Cart</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="second">
+    <h2>What's on your mind?</h2>
+    <div class="second1">
+    <div class="biryani">
+        <img src="biryaniplate.jpeg" alt="">
+        <p>Biryani</p></div>
+    <div class="south-indian">
+         <img src="siii.jpg">
+         <p>South Indian</p></div>
+    <div class="pizza">
+        <img src="hdpizza.jpg" alt="">
+        <p>Pizza</p></div>
+    <div class="north-indian">
+        <img src="niii.jpg" alt="">
+        <p>North Indian</p></div>
+    <div class="rolls">
+        <img src="r.jpg" arc="">
+        <p>Rolls</p></div>
+    <div class="kebabs">
+        <img src="kebabpic.jpg" arc="">
+        <p>Kebabs</p></div> 
+     <div class="pastry">
+        <img src="pp.jpg" alt="">
+        <p>Pastry</p></div>
+    <div class="salad">
+        <img src="saladdd.jpg" alt="">
+        <p>Salad</p></div>
+    <div class="icecream">
+        <img src="icream.jpg" arc="">
+        <p>Ice cream</p></div>
+    <div class="cakes">
+        <img src="ckk.jpg" arc="">
+        <p>Cakes</p></div> 
+     </div>
+</div>
+
+    <div class="third">
+        <h2 class="third-title">Top restaurant chains in Coimbatore</h2>
+    <div class=dabbas-div>
+
+    <div class="dabba">
+        <img src="chinesewok.jpg" alt="">
+        <h3>Chinese Wok</h3>
+        <p><i class="fa-regular fa-star-half-stroke"></i> 4.6 25-30mins</p>
+        <p class="dabbadetails">Chinese, Asian, Tibetan, Desserts, Peelamedu</p></div>
+    <div class="dabba">
+        <img src="ph.jpg" alt="">
+        <h3>Pizza Hut</h3>
+        <p><i class="fa-regular fa-star-half-stroke"></i> 4.5 35-40mins</p>
+        <p class="dabbadetails">Pizzas Peelamedu</p></div>  
+    <div class="dabba">
+        <img src="barbequenation.jpg" alt="">
+        <h3>UBQ by Barbeque Nation</h3>
+        <p><i class="fa-regular fa-star-half-stroke"></i> 4.5 25-30mins</p>
+        <p class="dabbadetails">North Indian, Barbeque, Biryani, Peelamedu</p></div>
+    <div class="dabba">
+        <img src="srisurya.jpg" alt="">
+        <h3>Hotel Sri Surya</h3>
+        <p><i class="fa-regular fa-star-half-stroke"></i> 4.7 25-30mins</p>
+        <p class="dabbadetails">South Indian, Chinese Peelamedu</p></div>
+    <div class="dabba">
+        <img src="waffle.jpg" alt="">
+        <h3>The Belgian Waffle Co.</h3>
+        <p><i class="fa-regular fa-star-half-stroke"></i> 4.6 25-30mins</p>
+        <p class="dabbadetails">Waffle, Desserts, Icecream, Peelamedu</p></div>
+    <div class="dabba">
+        <img src="potbiryani.jpg" alt="">
+        <h3>Dindigul Venu Biryani</h3>
+        <p><i class="fa-regular fa-star-half-stroke"></i> 4.5 35-40mins</p>
+        <p class="dabbadetails">Biryani, Chinese, Lakshmi Mills</p></div>  
+    <div class="dabba">
+        <img src="bbq.jpg" alt="">
+        <h3>Barbeque Nation</h3>
+        <p><i class="fa-regular fa-star-half-stroke"></i> 4.5 25-30mins</p>
+        <p class="dabbadetails">North Indian, Barbeque, Biryani, Avinashi Road</p></div>
+    <div class="dabba">
+        <img src="mcd.jpg" alt="">
+        <h3>McDonald's</h3>
+        <p><i class="fa-regular fa-star-half-stroke"></i> 4.7 25-30mins</p>
+        <p class="dabbadetails">Burgers, Beverages, Cafe, Desserts, Avinashi Road</p></div>
+    </div>
+</div>
+
+<div class="fourth">
+    <div class="buttons"><h2>Restaurants with online food delivery in Coimbatore</h2>
+     <button>Filter</button>
+     <button>Sort By</button>
+     <button>Fast Delivery</button>
+     <button>New on Swiggy</button>
+     <button>Ratings 4.0+</button>
+     <button>Offers</button>
+     <button>Rs.300-Rs.600</button>
+    </div>
+   
+    <div class="fourth-section">
+        
+        <div class="set-one">
+            <div class="one">
+                <img src="chinesewok.jpg"alt="">
+                <h3>Chinese Wok</h3>
+                <p><i class="fa-regular fa-star-half-stroke"></i> 4.6 25-30mins</p>
+                <p class="dabbadetails">Chinese, Asian, Tibetan, Desserts, Peelamedu</p> </div>
+            <div class="two">
+                <img src="ph.jpg" alt="">
+                <h3>Pizza Hut</h3>
+                <p><i class="fa-regular fa-star-half-stroke"></i> 4.5 35-40mins</p>
+                <p class="dabbadetails">Pizzas Peelamedu</p></div>  
+            <div class="three">
+                <img src="barbequenation.jpg" alt="">
+                <h3>UBQ by Barbeque Nation</h3>
+                <p><i class="fa-regular fa-star-half-stroke"></i> 4.5 25-30mins</p>
+                <p class="dabbadetails">North Indian, Barbeque, Biryani, Peelamedu</p></div>
+            <div class="four">
+                <img src="srisurya.jpg" alt="">
+                <h3>Hotel Sri Surya</h3>
+                <p><i class="fa-regular fa-star-half-stroke"></i> 4.7 25-30mins</p>
+                <p class="dabbadetails">South Indian, Chinese Peelamedu</p></div>
+        </div>
+                
+       
+            <div class="set-two">
+                <div class="one">
+                    <img src="waffle.jpg" alt="">
+                    <h3>The Belgian Waffle Co.</h3>
+                    <p><i class="fa-regular fa-star-half-stroke"></i> 4.6 25-30mins</p>
+                    <p class="dabbadetails">Waffle, Desserts, Icecream, Peelamedu</p></div>
+                <div class="two">
+                    <img src="potbiryani.jpg" alt="">
+                    <h3>Dindigul Venu Biryani</h3>
+                    <p><i class="fa-regular fa-star-half-stroke"></i> 4.5 35-40mins</p>
+                    <p class="dabbadetails">Biryani, Chinese, Lakshmi Mills</p></div>  
+                <div class="three">
+                    <img src="bbq.jpg" alt="">
+                    <h3>Barbeque Nation</h3>
+                    <p><i class="fa-regular fa-star-half-stroke"></i> 4.5 25-30mins</p>
+                    <p class="dabbadetails">North Indian, Barbeque, Biryani, Avinashi Road</p></div>
+                    
+                <div class="four">
+                    <img src="mcd.jpg" alt="">
+                    <h3>McDonald's</h3>
+                    <p><i class="fa-regular fa-star-half-stroke"></i> 4.7 25-30mins</p>
+                    <p class="dabbadetails">Burgers, Beverages, Cafe, Desserts, Avinashi Road</p></div>
+                </div>
+                
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+     
+</div>
+    
+</body>
+<div class="extra">
+    <p>For better experience, download the Crave Courier app now.</p>
+    <img class="extra-img" src="footer-removebg-preview.png" alt="">
+</div>
+<footer>
+    <div class="footer-content">
+
+    <div class="fone">
+    <img src="logo2-removebg-preview.png" alt="">
+    <p>© 2024 Crave Technologies Pvt. Ltd</p></div>
+    
+    <div class="ftwo">
+        <h4>Company</h4>
+        <a hef="#">About</a>
+        <a hef="#">Careers</a>
+        <a hef="#">Team</a>
+        <a hef="#">Crave Courier One</a>
+        <a hef="#">Crave Courier Instamart</a></div>
+    
+   <div class="fthree">
+        <h4>Contact Us</h4>
+        <a hef="#">Help & Support</a>
+        <a hef="#">Contact Us</a>
+        <a hef="#">Ride with us</a></div>
+    
+     <div class="ffour">
+        <h4>Legal</h4>
+        <a hef="#">Terms & Conditions</a>
+        <a hef="#">Cookie policy</a>
+        <a hef="#">Team</a>
+        <a hef="#">Crave Courier One</a>
+        <a hef="#">Crave Courier Instamart</a></div>
+
+
+        <div class="ffive">
+            <h4>We deliver to:</h4>
+            <a hef="#">Bangalore</a>
+            <a hef="#">Gurgaon</a>
+            <a hef="#">Hyderabad</a>
+            <a hef="#">Delhi</a>
+            <a hef="#">Mumbai</a>
+            <a hef="#">Pune</a>
+            <button>589 cities</button>
+        </div> 
+    </div>   
+        </footer>
+
+<script src="foodapp.js"></script>
+</html>
